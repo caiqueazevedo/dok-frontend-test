@@ -1,5 +1,319 @@
-.bg-icon {
-  background-color: #E12C30;
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+button {
+  color: #fff;
+  background: linear-gradient(90deg, #12d01a 17.21%, #12d01a 78.69%);
+  border-radius: 3.125rem;
+  border: none;
+  font-weight: 700;
+  padding: 1rem;
+  line-height: 2rem;
+}
+
+.container {
+  padding: 0;
+}
+
+header {
+  flex-direction: column-reverse;
+  padding: 2rem;
+  background-image: url(../assets/images/carros_avenida.png);
+}
+header h1 {
+  font-size: 2.1875rem;
+  font-weight: 800;
+  color: #e12c30;
+  line-height: 143.5%;
+}
+header button {
+  font-size: 1.875rem;
+}
+
+.form {
+  background-color: #e12c30;
+}
+.form div {
+  border-radius: 1.5rem;
+  background-color: #ce282b;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+}
+.form iframe {
+  padding: 2rem;
+}
+.form button {
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  font-size: 1.2375rem;
+}
+.form input {
+  width: 100%;
+  border-radius: 1.5rem;
+  border: none;
+  padding: 1.6rem 0px 1.6rem 0.8rem;
+  margin-bottom: 2rem;
+  color: #676767;
+  font-weight: 700;
+  font-size: 1, 125rem;
+}
+.form form {
+  margin: 1.4rem;
+}
+
+.reasons {
+  padding: 2rem;
+}
+.reasons h2 {
+  color: #676767;
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 41px;
+  padding: 1.5rem 0px 1.3rem 0px;
+}
+.reasons .bg-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 21.325px;
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+}
+.reasons .bg-card .bg-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  background-color: #e12c30;
+  border-radius: 50%;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.reasons .bg-card .bg-icon img {
+  text-align: center;
+  width: 58%;
+  margin: 1.5rem;
+}
+.reasons .bg-card p {
+  text-align: center;
+  padding: 0px 1rem 0px 1rem;
+  font-size: 1.5rem;
+  line-height: 33px;
+  color: #676767;
+}
+
+.vehicle {
+  background-color: #e12c30;
+  padding: 2rem;
+}
+.vehicle h2 {
+  font-size: 1.875rem;
+  text-align: center;
+  font-weight: 800;
+  color: #fff;
+  margin: 1.2rem;
+  line-height: 143.5%;
+}
+.vehicle h3 {
+  font-size: 1.5rem;
+  line-height: 143.5%;
+  margin: 1.2rem;
+  text-align: center;
+  color: #fff;
+}
+.vehicle img {
+  margin-top: 2rem;
+}
+
+.affiliate {
+  text-align: center;
+}
+.affiliate span {
+  color: #e12c30;
+}
+.affiliate p {
+  color: #676767;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  margin: 2rem 0px 2rem 0px;
+  text-align: justify;
+}
+.affiliate h3 {
+  color: #676767;
+  margin: 2rem 0px 2rem 0px;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 41px;
+  text-align: center;
+  padding: 0px 2rem 0px 2rem;
+}
+.affiliate button {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  padding: 0.4rem 2rem 0.4rem 2rem;
+}
+.affiliate .content-1 p {
+  padding: 0px 2rem 0px 2rem;
+}
+.affiliate .content-2 {
+  padding: 0px 2rem 2rem 2rem;
+}
+
+@media (min-width: 768px) {
+  header {
+    flex-direction: row;
+    width: 100%;
+    padding: 2rem;
+    background-image: url(../assets/images/carros_avenida.png);
+    background-size: cover;
+  }
+  header button {
+    font-size: 1.875rem;
+  }
+  header h1 {
+    font-size: 2.1875rem;
+    font-weight: 800;
+    color: #e12c30;
+    line-height: 143.5%;
+  }
+
+  .form {
+    background-color: #e12c30;
+  }
+  .form div {
+    border-radius: 1.5rem;
+    background-color: #ce282b;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+  }
+  .form iframe {
+    padding: 2rem;
+  }
+  .form button {
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    font-size: 1.2375rem;
+  }
+  .form input {
+    width: 100%;
+    border-radius: 1.5rem;
+    border: none;
+    padding: 1.6rem 0px 1.6rem 0.8rem;
+    margin-bottom: 2rem;
+    color: #676767;
+    font-weight: 700;
+    font-size: 1, 125rem;
+  }
+  .form form {
+    margin: 1.4rem;
+  }
+
+  .reasons {
+    padding: 2rem;
+  }
+  .reasons h2 {
+    color: #676767;
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 41px;
+    padding: 1.5rem 0px 1.3rem 0px;
+  }
+  .reasons .bg-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 21.325px;
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  .reasons .bg-card .bg-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    background-color: #e12c30;
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .reasons .bg-card .bg-icon img {
+    text-align: center;
+    width: 58%;
+    margin: 1.5rem;
+  }
+  .reasons .bg-card p {
+    text-align: center;
+    padding: 0px 1rem 0px 1rem;
+    font-size: 1.5rem;
+    line-height: 33px;
+    color: #676767;
+  }
+
+  .vehicle {
+    background-color: #e12c30;
+    padding: 2rem;
+  }
+  .vehicle h2 {
+    font-size: 1.875rem;
+    text-align: center;
+    font-weight: 800;
+    color: #fff;
+    margin: 1.2rem;
+    line-height: 143.5%;
+  }
+  .vehicle h3 {
+    font-size: 1.5rem;
+    line-height: 143.5%;
+    margin: 1.2rem;
+    text-align: center;
+    color: #fff;
+  }
+  .vehicle img {
+    margin-top: 2rem;
+  }
+
+  .affiliate {
+    text-align: center;
+  }
+  .affiliate span {
+    color: #e12c30;
+  }
+  .affiliate p {
+    color: #676767;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    margin: 2rem 0px 2rem 0px;
+    text-align: justify;
+  }
+  .affiliate h3 {
+    color: #676767;
+    margin: 2rem 0px 2rem 0px;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    padding: 0px 2rem 0px 2rem;
+  }
+  .affiliate button {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 36px;
+    text-align: center;
+    color: #ffffff;
+    padding: 0.4rem 2rem 0.4rem 2rem;
+  }
+  .affiliate .content-1 p {
+    padding: 0px 2rem 0px 2rem;
+  }
+  .affiliate .content-2 {
+    padding: 0px 2rem 2rem 2rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
