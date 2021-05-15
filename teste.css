@@ -1,0 +1,10 @@
+.box{
+  border: red 2px solid;
+  background-color: rgb(51, 107, 197);
+}
+
+.box-item{
+  border: black 2px solid;
+  color: black;
+  background-color: rgb(255, 238, 7);
+}
