@@ -1,3 +1,7 @@
+.error::placeholder {
+  color: #e12c30;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -22,7 +26,7 @@ button {
   }
 
   .affiliate p {
-    font-size: calc(1% + 1vw + 1vh);
+    font-size: calc(30% + 1vw + 1vh);
   }
   .affiliate div img.garage {
     height: 870px;
